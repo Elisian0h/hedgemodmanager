@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:c="using:HedgeModManager.UI.Controls"
+             xmlns:cs="using:HedgeModManager.UI.Controls.Settings"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:HedgeModManager.UI.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1168" d:DesignHeight="1200"
+             x:Class="HedgeModManager.UI.Controls.Settings.Settings"
+             x:DataType="vm:MainWindowViewModel"
+             Loaded="OnLoaded"
+             Background="{DynamicResource BackgroundL0Brush}">
+  <ScrollViewer x:Name="ScrollViewerPanel">
+    <Grid RowDefinitions="Auto,*"
+          Margin="0">
+      <StackPanel x:Name="TitlePanel" Margin="18,24,18,16" Orientation="Horizontal">
+      </StackPanel>
+      <StackPanel x:Name="Panels"
+                  Grid.Row="1"
+                  Margin="0"
+                  Orientation="Horizontal">
+      </StackPanel>
+    </Grid>
+  </ScrollViewer>
+</UserControl>

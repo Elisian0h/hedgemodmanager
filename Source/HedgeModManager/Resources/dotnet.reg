@@ -1,0 +1,1718 @@
+
+[Software\\Microsoft\\.NETFramework]
+"Enable64Bit"=dword:00000001
+"InstallRoot"="C:\\windows\\Microsoft.NET\\Framework64\\"
+"UseRyuJIT"=dword:00000001
+
+[Software\\Microsoft\\.NETFramework\\NGen]
+
+[Software\\Microsoft\\.NETFramework\\NGen\\Policy]
+
+[Software\\Microsoft\\.NETFramework\\NGen\\Policy\\v4.0]
+"OptimizeUsedBinaries"=dword:00000000
+
+[Software\\Microsoft\\.NETFramework\\NGenQueueMSI]
+
+[Software\\Microsoft\\.NETFramework\\NGenQueueMSI\\WIN32]
+
+[Software\\Microsoft\\.NETFramework\\NGenQueueMSI\\WIN32\\Default]
+
+[Software\\Microsoft\\.NETFramework\\NGenQueueMSI\\WIN64]
+
+[Software\\Microsoft\\.NETFramework\\NGenQueueMSI\\WIN64\\Default]
+
+[Software\\Microsoft\\.NETFramework\\Policy]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\BTSNTSvc.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\BTSNTSvc.exe\\{CA109828-7CE7-40F4-AD73-C7575455A7D5}]
+"Company"="Microsoft Corporation"
+"Internal Name"="BTSNTSvc"
+"Maximum File Version"="3.0.9999.9999"
+"Minimum File Version"="3.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\compeif.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\compeif.exe\\{6AA1435F-1473-4A6D-B82A-1DD4E3A20E34}]
+"Company"="Microsoft Corporation"
+"Internal Name"="compeif.exe"
+"Maximum File Version"="4.0.9999.9999"
+"Minimum File Version"="4.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ConfigFramework.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ConfigFramework.exe\\{CF59770F-C96E-472D-B532-2F9AE8D895DC}]
+"Company"="Microsoft Corporation"
+"Internal Name"="ConfigFramework"
+"Maximum File Version"="3.0.9999.9999"
+"Minimum File Version"="3.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\DW15.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\DW15.exe\\{18B0BD4E-298B-4CB1-98E4-F49CFCE6CFB4}]
+"File Size"=dword:0002da48
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehmsas.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehmsas.exe\\{04A93A93-ABBA-44AF-948F-50B7182C631A}]
+"Company"="Microsoft Corporation"
+"Internal Name"="eHMSAS"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehrec.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehrec.exe\\{44D9F380-9050-4365-AA06-DA121F6F2B7D}]
+"Company"="Microsoft Corporation"
+"Internal Name"="eHRec"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehSched.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehSched.exe\\{EE19C1D5-4D4B-4D19-874A-FD6633C9293E}]
+"Company"="Microsoft Corporation"
+"Internal Name"="ehSched"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehShell.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehShell.exe\\{95736FC3-FC2F-4ED5-9632-0216DF1B8019}]
+"Company"="Microsoft Corporation"
+"Internal Name"="ehshell.exe"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehtray.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\ehtray.exe\\{FECCD425-B48B-4062-A580-642302E20A30}]
+"Company"="Microsoft Corporation"
+"Internal Name"="ehtray"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\esp_srv.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\esp_srv.exe\\{D044DE85-EC81-4A04-BA4B-DF316E80DF61}]
+"Company"="Microsoft Corporation"
+"Internal Name"="esp_srv.exe"
+"Maximum File Version"="4.0.9999.9999"
+"Minimum File Version"="4.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\excel.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\excel.exe\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Maximum File Version Number"="11.0.9999.9999"
+"Minimum File Version Number"="11.0.0.0"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\excel.exe\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\\Registry Keys]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\excel.exe\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\\Registry Keys\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Key Name"="HKEY_CLASSES_ROOT\\Interface\\{000C0601-0000-0000-C000-000000000046}"
+"Key Presence"=dword:00000000
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\medctrro.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\medctrro.exe\\{DA93B8AF-F88E-438D-A5A3-CB78BB4E6BF9}]
+"Company"="Microsoft Corporation"
+"Internal Name"="MedCtrRO.exe"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\msi.dll]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\msi.dll\\{462EF42B-ABA4-4eac-9843-9EED260F54D0}]
+"Company"="Microsoft Corporation"
+"Maximum File Version"="5.0.9999.99999"
+"Minimum File Version"="2.0.0000.00000"
+"Target Version"="v4.0.30319"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\Setup.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\Setup.exe\\{83E0F69E-84FA-4961-9FD4-3025FCEE92EA}]
+"Company"="Microsoft Corporation"
+"Internal Name"="Setup"
+"Maximum File Version"="3.0.9999.9999"
+"Minimum File Version"="3.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\snchk.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\snchk.exe\\{1CF3A71C-18F9-41EF-8BAD-EA355F4DB250}]
+"Company"="Microsoft Corporation"
+"Internal Name"="SnChk.exe"
+"Maximum File Version"="5.1.2600.9999"
+"Minimum File Version"="5.1.2600.0000"
+"Product Name"="Microsoft(R) Windows(R) Operating System"
+"Target Version"="v1.0.3705"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\testmess.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\testmess.exe\\{11856902-6A4D-4AFB-AF94-E1FCA58C8BAF}]
+"Company"="Microsoft Corporation"
+"Internal Name"="testmess.exe"
+"Maximum File Version"="4.0.9999.9999"
+"Minimum File Version"="4.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\TrackingDbHelper.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\TrackingDbHelper.exe\\{162E7914-3267-46E2-82C8-8E72484BD554}]
+"Company"="Microsoft Corporation"
+"Internal Name"="TrackingDbHelper"
+"Maximum File Version"="3.0.9999.9999"
+"Minimum File Version"="3.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\Trigcon.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\Trigcon.exe\\{3C010CA2-7989-4C96-91C3-1564E33F9A42}]
+"Company"="Microsoft Corporation"
+"Internal Name"="trigcon.exe"
+"Maximum File Version"="4.0.9999.9999"
+"Minimum File Version"="4.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\validins.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\validins.exe\\{00BBFD35-5011-4117-9DA1-2D3BFAAF9561}]
+"Company"="Microsoft Corporation"
+"Internal Name"="validins.exe"
+"Maximum File Version"="4.0.9999.9999"
+"Minimum File Version"="4.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\winword.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\winword.exe\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Maximum File Version Number"="11.0.9999.9999"
+"Minimum File Version Number"="11.0.0.0"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\winword.exe\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\\Registry Keys]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\winword.exe\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}\\Registry Keys\\{2CCAA9FE-6884-4AF2-99DD-5217B94115DF}]
+"Key Name"="HKEY_CLASSES_ROOT\\Interface\\{000C0601-0000-0000-C000-000000000046}"
+"Key Presence"=dword:00000000
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\xsd2edi.exe]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\xsd2edi.exe\\{B469F89A-19A5-44B2-A12F-E93394003755}]
+"Company"="Microsoft Corporation"
+"Internal Name"="XSD2EDI.EXE"
+"Maximum File Version"="4.0.9999.9999"
+"Minimum File Version"="4.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\XSharpP.EXE]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\AppPatch\\v4.0.30319.00000\\XSharpP.EXE\\{BDC69590-00EE-408A-B21F-58D9EF182CF6}]
+"Company"="Microsoft Corporation"
+"Internal Name"="XSharpP"
+"Maximum File Version"="3.0.9999.9999"
+"Minimum File Version"="3.0.0.0"
+"Product Name"="Microsoft(R) BizTalk(R) Server 2004"
+"Target Version"="v1.1.4322"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\EntityFramework, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\EntityFramework.PowerShell, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\EntityFramework.PowerShell.Utility, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.FriendlyUrls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.Membership.OpenAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.Mvc.Facebook, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.SignalR.Client, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.SignalR.Core, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.SignalR.Owin, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.SignalR.Redis, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.SignalR.ServiceBus, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.SignalR.SqlServer, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.SignalR.SystemWeb, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.AspNet.Web.Optimization.WebForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.Owin.Host.HttpListener, Version=0.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.Owin.Host.SystemWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.VisualStudio.Web.Mvc.3.0, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.VisualStudio.Web.Mvc.4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\migrate, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\signalr, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.AttributedModel, Version=1.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.AttributedModel, Version=1.0.16.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.Convention, Version=1.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.Convention, Version=1.0.16.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.Hosting, Version=1.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.Hosting, Version=1.0.16.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.TypedParts, Version=1.0.15.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Composition.TypedParts, Version=1.0.16.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Threading.Tasks.Dataflow, Version=4.5.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Threading.Tasks.Dataflow, Version=4.5.8.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Threading.Tasks.Dataflow, Version=4.5.9.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Helpers, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Http.SelfHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Http.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Mvc, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.Razor, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.WebPages, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.WebPages.Administration, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.WebPages.Deployment, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\System.Web.WebPages.Razor, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\WebMatrix.Data, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Servicing\\WebMatrix.WebData, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Standards]
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Standards\\Standard CLI 2002]
+"v4.0.30319"=dword:00000fff
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Standards\\Standard CLI 2005]
+"v4.0.30319"=dword:00000fff
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Standards\\v1.0.0]
+"v4.0.30319"=dword:0000766f
+
+[Software\\Microsoft\\.NETFramework\\Policy\\Upgrades]
+"4.0.30319"="4.0.0-4.0.30319"
+
+[Software\\Microsoft\\.NETFramework\\Policy\\v4.0]
+"30319"="30319-30319"
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727]
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService]
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\ListenedState]
+"RootstoreDirty"=dword:00000000
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots]
+"WorkPending"=dword:00000001
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\AspNetMMCExt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\AspNetMMCExt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/ComSvcConfig.exe]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/ComSvcConfig.exe\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/dfsvc.exe]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/dfsvc.exe\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/SMSvcHost.exe]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/SMSvcHost.exe\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/WsatConfig.exe]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\C:/windows/Microsoft.NET/Framework64/v4.0.30319/WsatConfig.exe\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\CustomMarshalers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\CustomMarshalers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Internal.Tasks.Dataflow, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Internal.Tasks.Dataflow, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Transactions.Bridge, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Transactions.Bridge.Dtc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Transactions.Bridge.Dtc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic.Compatibility, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic.Compatibility, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic.Compatibility.Data, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualBasic.Compatibility.Data, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Workflow.Compiler, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\Microsoft.Workflow.Compiler, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"KeepPriority"=dword:00000001
+"Priority"=dword:00000001
+"Status"=dword:00000005
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"ImageList"=hex:01,00,00,00,01,71,a0,6e,46,9b,d8,9a,b2,37,b3,7a,06,3b,d2,e3,94,\\
+  05,00,00,00,98,00,00,00,6d,00,73,00,63,00,6f,00,72,00,6c,00,69,00,62,00,2c,\\
+  00,20,00,56,00,65,00,72,00,73,00,69,00,6f,00,6e,00,3d,00,34,00,2e,00,30,00,\\
+  2e,00,30,00,2e,00,30,00,2c,00,20,00,43,00,75,00,6c,00,74,00,75,00,72,00,65,\\
+  00,3d,00,6e,00,65,00,75,00,74,00,72,00,61,00,6c,00,2c,00,20,00,50,00,75,00,\\
+  62,00,6c,00,69,00,63,00,4b,00,65,00,79,00,54,00,6f,00,6b,00,65,00,6e,00,3d,\\
+  00,62,00,37,00,37,00,61,00,35,00,63,00,35,00,36,00,31,00,39,00,33,00,34,00,\\
+  65,00,30,00,38,00,39,00,00,00,00,00,00,00,00,00,00,00,00
+"RuntimeVersion"="v4.0.30319"
+"Scenario"=dword:00000020
+"Status"=dword:00000005
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemDrawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemDrawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.AeroLite, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.AeroLite, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Classic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Classic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Luna, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Luna, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Royale, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationFramework.Royale, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"KeepPriority"=dword:00000001
+"Priority"=dword:00000001
+"Status"=dword:00000005
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"ImageList"=hex:04,00,00,00,01,ad,d2,0d,a4,dd,2c,71,6a,cd,1f,49,3b,e3,5b,4f,d8,\\
+  05,00,00,00,94,00,00,00,53,00,79,00,73,00,74,00,65,00,6d,00,2c,00,20,00,56,\\
+  00,65,00,72,00,73,00,69,00,6f,00,6e,00,3d,00,34,00,2e,00,30,00,2e,00,30,00,\\
+  2e,00,30,00,2c,00,20,00,43,00,75,00,6c,00,74,00,75,00,72,00,65,00,3d,00,6e,\\
+  00,65,00,75,00,74,00,72,00,61,00,6c,00,2c,00,20,00,50,00,75,00,62,00,6c,00,\\
+  69,00,63,00,4b,00,65,00,79,00,54,00,6f,00,6b,00,65,00,6e,00,3d,00,62,00,37,\\
+  00,37,00,61,00,35,00,63,00,35,00,36,00,31,00,39,00,33,00,34,00,65,00,30,00,\\
+  38,00,39,00,00,00,00,01,00,00,00,01,00,00,00,02,00,00,00,02,00,00,00,03,00,\\
+  00,00,01,71,a0,6e,46,9b,d8,9a,b2,37,b3,7a,06,3b,d2,e3,94,05,00,00,00,98,00,\\
+  00,00,6d,00,73,00,63,00,6f,00,72,00,6c,00,69,00,62,00,2c,00,20,00,56,00,65,\\
+  00,72,00,73,00,69,00,6f,00,6e,00,3d,00,34,00,2e,00,30,00,2e,00,30,00,2e,00,\\
+  30,00,2c,00,20,00,43,00,75,00,6c,00,74,00,75,00,72,00,65,00,3d,00,6e,00,65,\\
+  00,75,00,74,00,72,00,61,00,6c,00,2c,00,20,00,50,00,75,00,62,00,6c,00,69,00,\\
+  63,00,4b,00,65,00,79,00,54,00,6f,00,6b,00,65,00,6e,00,3d,00,62,00,37,00,37,\\
+  00,61,00,35,00,63,00,35,00,36,00,31,00,39,00,33,00,34,00,65,00,30,00,38,00,\\
+  39,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,b0,00,00,00,53,00,79,\\
+  00,73,00,74,00,65,00,6d,00,2e,00,43,00,6f,00,6e,00,66,00,69,00,67,00,75,00,\\
+  72,00,61,00,74,00,69,00,6f,00,6e,00,2c,00,20,00,56,00,65,00,72,00,73,00,69,\\
+  00,6f,00,6e,00,3d,00,34,00,2e,00,30,00,2e,00,30,00,2e,00,30,00,2c,00,20,00,\\
+  43,00,75,00,6c,00,74,00,75,00,72,00,65,00,3d,00,6e,00,65,00,75,00,74,00,72,\\
+  00,61,00,6c,00,2c,00,20,00,50,00,75,00,62,00,6c,00,69,00,63,00,4b,00,65,00,\\
+  79,00,54,00,6f,00,6b,00,65,00,6e,00,3d,00,62,00,30,00,33,00,66,00,35,00,66,\\
+  00,37,00,66,00,31,00,31,00,64,00,35,00,30,00,61,00,33,00,61,00,00,00,00,00,\\
+  00,00,00,00,00,00,00,00,01,00,00,00,9c,00,00,00,53,00,79,00,73,00,74,00,65,\\
+  00,6d,00,2e,00,58,00,6d,00,6c,00,2c,00,20,00,56,00,65,00,72,00,73,00,69,00,\\
+  6f,00,6e,00,3d,00,34,00,2e,00,30,00,2e,00,30,00,2e,00,30,00,2c,00,20,00,43,\\
+  00,75,00,6c,00,74,00,75,00,72,00,65,00,3d,00,6e,00,65,00,75,00,74,00,72,00,\\
+  61,00,6c,00,2c,00,20,00,50,00,75,00,62,00,6c,00,69,00,63,00,4b,00,65,00,79,\\
+  00,54,00,6f,00,6b,00,65,00,6e,00,3d,00,62,00,37,00,37,00,61,00,35,00,63,00,\\
+  35,00,36,00,31,00,39,00,33,00,34,00,65,00,30,00,38,00,39,00,00,00,00,00,00,\\
+  00,00,00,00,00,00
+"RuntimeVersion"="v4.0.30319"
+"Scenario"=dword:00000020
+"Status"=dword:00000005
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities.Core.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities.Core.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Activities.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.AddIn, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.AddIn, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.AddIn, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.AddIn.Contract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.AddIn.Contract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.AddIn.Contract, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ComponentModel.Composition.Registration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ComponentModel.Composition.Registration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.Services.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Device, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Device, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.DirectoryServices.AccountManagement, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.DirectoryServices.AccountManagement, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.DirectoryServices.AccountManagement, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.DirectoryServices.Protocols, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IdentityModel.Selectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IdentityModel.Selectors, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IdentityModel.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IdentityModel.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IO.Compression.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IO.Compression.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IO.Log, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.IO.Log, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Management.Instrumentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Management.Instrumentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Management.Instrumentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Net.Http.WebRequest, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Net.Http.WebRequest, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Reflection.Context, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Reflection.Context, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.ServiceMoniker40, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.ServiceMoniker40, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DynamicData.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DynamicData.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.DynamicData.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Controls.Ribbon, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Controls.Ribbon, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Input.Manipulations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Input.Manipulations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Windows.Presentation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xml.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\System.Xml.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationClientsideProviders, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationClientsideProviders, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationClientsideProviders, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000000
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\1]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\XsdBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+"Status"=dword:00000003
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\Roots\\XsdBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\\0]
+"Scenario"=dword:00000020
+"Status"=dword:00000002
+
+[Software\\Microsoft\\.NETFramework\\v2.0.50727\\NGenService\\State]
+"AccumulatedWaitIdleTime"=dword:00000000
+"ExtraInstallSteps"=dword:00000001
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319]
+"AspNetEnforceViewStateMac"=dword:00000001
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0,Profile=Client]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0.1]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0.1,Profile=Client]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0.2]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0.2,Profile=Client]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0.3]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.0.3,Profile=Client]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.5]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.5.1]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.5.2]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.5.3]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.6]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.6.1]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.6.2]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.7]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.7.1]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.7.2]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\.NETFramework,Version=v4.8]
+@=""
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\Client]
+
+[Software\\Microsoft\\.NETFramework\\v4.0.30319\\SKUs\\Default]
+
+[Software\\Microsoft\\.NETFramework\\Windows Presentation Foundation]
+
+[Software\\Microsoft\\.NETFramework\\Windows Presentation Foundation\\Hosting]
+
+[Software\\Microsoft\\.NETFramework\\Windows Presentation Foundation\\Hosting\\Hosts]
+
+[Software\\Microsoft\\.NETFramework\\Windows Presentation Foundation\\Hosting\\Hosts\\v4.0]
+@="C:\\windows\\Microsoft.NET\\Framework64\\v4.0.30319\\WPF\\PresentationHost_v0400.dll"
+
+[Software\\Microsoft\\.NETFramework\\Windows Presentation Foundation\\Namespaces]
+"http://schemas.microsoft.com/netfx/2007/xaml/presentation"="3.0"
+"http://schemas.microsoft.com/netfx/2009/xaml/presentation"="4.0"
+"http://schemas.microsoft.com/winfx/2006/xaml/presentation"="3.0"
+
+[Software\\Microsoft\\.NETFramework\\Windows Presentation Foundation\\Namespaces\\http://schemas.microsoft.com/netfx/2009/xaml/presentation]
+
+[Software\\Microsoft\\.NETFramework\\Windows Presentation Foundation\\Namespaces\\http://schemas.microsoft.com/netfx/2009/xaml/presentation\\v4.0]
+@=""

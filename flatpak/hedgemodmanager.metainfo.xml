@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.hedge_dev.hedgemodmanager</id>
+  
+  <name>Hedge Mod Manager</name>
+  <summary>Manage mods for Sonic games</summary>
+  <developer_name>hedge-dev</developer_name>
+  <url type="homepage">https://github.com/hedge-dev/HedgeModManager</url>
+  <url type="bugtracker">https://github.com/hedge-dev/HedgeModManager/issues</url>
+  <url type="help">https://github.com/hedge-dev/HedgeModManager/issues</url>
+  <url type="vcs-browser">https://github.com/hedge-dev/HedgeModManager</url>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#3e7e9e</color>
+    <color type="primary" scheme_preference="dark">#003068</color>
+  </branding>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">mild</content_attribute>
+  </content_rating>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+
+  <description>
+    <p>Hedge Mod Manager is an easy-to-use tool that helps you install and manage game mods for Sonic games on PC.</p>
+    <p>Supported games:</p>
+    <ul>
+      <li>Sonic Generations (2011)</li>
+      <li>Sonic Lost World</li>
+      <li>Sonic Forces</li>
+      <li>Puyo Puyo Tetris 2</li>
+      <li>Olympic Games Tokyo 2020</li>
+      <li>Sonic Colours: Ultimate</li>
+      <li>Sonic Origins</li>
+      <li>Sonic Frontiers</li>
+      <li>Shadow Generations</li>
+      <li>Unleashed Recompiled</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/hedge-dev/HedgeModManager/245c7fb001d95568b89b7952a8e13a74ab3d6483/data/screenshot01.png</image>
+      <caption>Mods tab showing the currently installed and enabled mods</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/hedge-dev/HedgeModManager/245c7fb001d95568b89b7952a8e13a74ab3d6483/data/screenshot02.png</image>
+      <caption>Settings tab showing the game, mod loader and manager settings</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="8.0.0-beta7" date="2026-06-28">
+      <url type="details">https://github.com/hedge-dev/HedgeModManager/releases/tag/8.0.0-beta7</url>
+      <description>
+        <ul>
+          <li>Fixed codes issues</li>
+        </ul>
+      </description>
+    </release>
+    <release version="8.0.0-beta6" date="2026-06-23">
+      <url type="details">https://github.com/hedge-dev/HedgeModManager/releases/tag/8.0.0-beta6</url>
+      <description>
+        <ul>
+          <li>Fixed mod update issues</li>
+        </ul>
+      </description>
+    </release>
+    <release version="8.0.0-beta5" date="2026-05-02">
+      <url type="details">https://github.com/hedge-dev/HedgeModManager/releases/tag/8.0.0-beta5</url>
+      <description>
+        <ul>
+          <li>Added code categories</li>
+          <li>Added codes compile error window</li>
+          <li>Added link for Unleashed Recompiled detection issues</li>
+          <li>Added basic GameBanana Remote Install integration</li>
+          <li>Added close keyboard shortcut</li>
+          <li>Fixed mod configuration issues</li>
+          <li>Fixed mod update issues</li>
+          <li>Improved game detection</li>
+          <li>Fixed codes downloading issues</li>
+          <li>Fixed code compilation issues</li>
+          <li>Many Linux related fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="8.0.0-beta4" date="2025-03-08">
+      <url type="details">https://github.com/hedge-dev/HedgeModManager/releases/tag/8.0.0-beta4</url>
+      <description>
+        <ul>
+          <li>Fixed update checker</li>
+          <li>Fixed prefix searching</li>
+          <li>Fixed game detection</li>
+          <li>Fixed INI count type</li>
+          <li>Fixed mods list not updating correctly</li>
+          <li>Fixed multiple mod loader install issues</li>
+          <li>Fixed load order being reversed</li>
+          <li>Fixed mods directory name casing issue</li>
+        </ul>
+      </description>
+    </release>
+    <release version="8.0.0-beta3" date="2025-03-06">
+      <url type="details">https://github.com/hedge-dev/HedgeModManager/releases/tag/8.0.0-beta3</url>
+      <description>
+        <ul>
+          <li>Fixed mod updater</li>
+          <li>Fixed mod parser</li>
+          <li>Fixed issues with mod configuration</li>
+          <li>Fixed profile switching</li>
+          <li>Fixed dependency checker</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <launchable type="desktop-id">io.github.hedge_dev.hedgemodmanager.desktop</launchable>
+</component>

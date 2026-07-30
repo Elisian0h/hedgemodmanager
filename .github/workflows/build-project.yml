@@ -1,0 +1,116 @@
+name: Build Project
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - ui
+    - main
+
+env:
+  PROJECT_PATH: ./Source/HedgeModManager.UI/HedgeModManager.UI.csproj
+  FLATPAK_ID: io.github.hedge_dev.hedgemodmanager
+  GENERATOR_URL: https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/refs/heads/master/dotnet/flatpak-dotnet-generator.py
+  DOTNET_VERSION: 10
+  DOTNET_CLI_HOME: /tmp/.dotnet
+  FREEDESKTOP_VERSION: 25.08
+
+jobs:
+  build:
+    name: Build Project
+    runs-on: ubuntu-26.04
+    strategy:
+      matrix:
+        rid: [linux-x64, linux-arm64, win-x64]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup .NET ${{ env.DOTNET_VERSION }} SDK
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}.0.x
+      
+      - name: Setup .NET ${{ env.DOTNET_VERSION }} Cache
+        uses: actions/cache@v6
+        with:
+          path: ${{ env.DOTNET_CLI_HOME }}
+          key: dotnet-${{ env.DOTNET_VERSION }}-${{ matrix.rid }}
+          restore-keys: |
+            dotnet-${{ env.DOTNET_VERSION }}-
+      
+      - name: Restore Packages
+        run: dotnet restore ${{ env.PROJECT_PATH }}
+
+      - name: ${{ matrix.rid }} Build
+        run: dotnet publish -p:DefineConstants=COMMITBUILD -p:PublishProfile=${{ matrix.rid }} -c Release -o ./output/${{ matrix.rid }} ${{ env.PROJECT_PATH }}
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: HedgeModManager-${{matrix.rid}}
+          path: ./output/${{matrix.rid}}
+  
+  build-flatpak:
+    name: Build Flatpak
+    strategy:
+      matrix:
+        include:
+        - arch: x86_64
+          runner: ubuntu-26.04
+          runtime: linux-x64
+        - arch: aarch64
+          runner: ubuntu-26.04-arm
+          runtime: linux-arm64
+    runs-on: ${{ matrix.runner }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Install Flatpak Builder
+        run: |
+          sudo apt-get update
+          sudo apt-get install flatpak-builder -y
+          
+      - name: Setup Flatpak Cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.local/share/flatpak/runtime/
+          key: flatpak-${{ env.FREEDESKTOP_VERSION }}-${{ matrix.arch }}
+      
+      - name: Setup Flatpak
+        run: |
+          flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          flatpak install --user -y flathub org.freedesktop.Sdk//${{env.FREEDESKTOP_VERSION}}
+          flatpak install --user -y flathub org.freedesktop.Sdk.Extension.dotnet${{env.DOTNET_VERSION}}//${{env.FREEDESKTOP_VERSION}}
+
+      - name: Generate NuGet Sources
+        run: |
+          curl -o flatpak-dotnet-generator.py ${{env.GENERATOR_URL}}
+          chmod +x flatpak-dotnet-generator.py
+          python3 flatpak-dotnet-generator.py ./flatpak/nuget-sources.json ${{env.PROJECT_PATH}} --dotnet ${{env.DOTNET_VERSION}} --freedesktop ${{env.FREEDESKTOP_VERSION}} --runtime ${{ matrix.runtime }}
+
+      - name: Build Flatpak
+        run: flatpak-builder --user --arch=${{ matrix.arch }} --force-clean --install-deps-from=flathub --repo=repo builddir ./flatpak/${{ env.FLATPAK_ID }}-autobuild.yml
+
+      - name: Build Flatpak Bundle
+        run: flatpak build-bundle --arch=${{ matrix.arch }} repo ./flatpak/${{env.FLATPAK_ID}}-${{ matrix.arch }}.flatpak ${{env.FLATPAK_ID}}
+
+      - name: Upload Flatpak Bundle
+        uses: actions/upload-artifact@v7
+        with:
+          name: HedgeModManager-flatpak-${{ matrix.arch }}
+          path: ./flatpak/${{env.FLATPAK_ID}}-${{ matrix.arch }}.flatpak
+      
+      - name: Upload NuGet Sources
+        if: matrix.arch == 'x86_64'
+        uses: actions/upload-artifact@v7
+        with:
+          name: nuget-sources.json
+          path: ./flatpak/nuget-sources.json

@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsPackable>false</IsPackable>
+    <Company>hedge-dev</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.6.0" />
+    <PackageReference Include="PeNet" Version="5.1.0" />
+    <PackageReference Include="SharpCompress" Version="0.50.0" />
+    <PackageReference Include="ValveKeyValue" Version="0.20.0.417" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libraries\HedgeModManager.CodeCompiler\HedgeModManager.CodeCompiler.csproj" />
+    <ProjectReference Include="..\Libraries\HedgeModManager.Diagnostics\HedgeModManager.Diagnostics.csproj" />
+    <ProjectReference Include="..\Libraries\HedgeModManager.Epic\HedgeModManager.Epic.csproj" />
+    <ProjectReference Include="..\Libraries\HedgeModManager.Foundation\HedgeModManager.Foundation.csproj" />
+    <ProjectReference Include="..\Libraries\HedgeModManager.Steam\HedgeModManager.Steam.csproj" />
+    <ProjectReference Include="..\Libraries\HedgeModManager.Text\HedgeModManager.Text.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

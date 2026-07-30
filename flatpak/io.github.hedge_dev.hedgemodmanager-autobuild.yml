@@ -1,0 +1,65 @@
+app-id: io.github.hedge_dev.hedgemodmanager
+runtime: org.freedesktop.Platform
+runtime-version: "25.08"
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.dotnet10
+build-options:
+  prepend-path: /usr/lib/sdk/dotnet10/bin
+  append-ld-library-path: /usr/lib/sdk/dotnet10/lib
+  prepend-pkg-config-path: /usr/lib/sdk/dotnet10/lib/pkgconfig
+
+command: HedgeModManager.UI
+
+finish-args:
+  - --socket=x11
+  # UnleashedRecomp permissions
+  - --filesystem=~/.config/UnleashedRecomp
+  - --filesystem=~/.local/share/applications/UnleashedRecomp.desktop:ro
+  - --filesystem=~/.var/app/io.github.hedge_dev.unleashedrecomp:ro
+  # Create permissions are required for accessing the mod loader, game and for patching game prefixes
+  # Steam permissions
+  - --filesystem=~/.steam/steam/steamapps
+  - --filesystem=~/.local/share/Steam/steamapps
+  - --filesystem=~/.var/app/com.valvesoftware.Steam/.steam/steam/steamapps
+  # Heroic permissions
+  - --filesystem=~/.var/app/com.heroicgameslauncher.hgl/config/heroic/GamesConfig:ro
+  - --filesystem=~/.var/app/com.heroicgameslauncher.hgl/config/heroic/legendaryConfig/legendary:ro
+  - --filesystem=~/Games/Heroic
+  # Common locations for game and mod files
+  - --filesystem=/media
+  - --filesystem=/run/media
+  - --filesystem=/mnt
+  - --device=dri
+  - --share=ipc
+  - --share=network
+  - --env=DOTNET_ROOT=/app/lib/dotnet
+
+modules:
+  - name: dotnet
+    buildsystem: simple
+    build-commands:
+      - /usr/lib/sdk/dotnet10/bin/install.sh
+  - name: hedge-mod-manager
+    buildsystem: simple
+    build-options:
+      env:
+        PUBLISH_PROFILE: linux-x64
+      arch:
+        x86_64:
+          env:
+            PUBLISH_PROFILE: linux-x64
+        aarch64:
+          env:
+            PUBLISH_PROFILE: linux-arm64
+    sources:
+      - type: dir
+        path: ../
+      - ./nuget-sources.json
+    build-commands:
+      - dotnet publish Source/HedgeModManager.UI/HedgeModManager.UI.csproj -c Release -p:DefineConstants=COMMITBUILD -p:PublishProfile=${PUBLISH_PROFILE} --no-self-contained --source ./nuget-sources
+      - mkdir -p ${FLATPAK_DEST}/bin
+      - cp -r Source/HedgeModManager.UI/bin/Release/net10.0/${PUBLISH_PROFILE}/publish/* ${FLATPAK_DEST}/bin
+      - install -Dm644 flatpak/hedgemodmanager.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+      - install -Dm644 flatpak/hedgemodmanager.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      - install -Dm644 flatpak/hedgemodmanager.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop

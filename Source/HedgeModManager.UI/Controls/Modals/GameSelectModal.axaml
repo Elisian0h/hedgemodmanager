@@ -25,6 +25,7 @@
           </ItemsControl.ItemTemplate>
         </ItemsControl>
       </ScrollViewer>
+      <Button Content="Add Game" HorizontalAlignment="Center" Margin="0,8,0,8" Click="OnAddGameClick" />
       <StackPanel Margin="4" Orientation="Horizontal" IsVisible="{Binding IsUnleashedRecompiledMissing, RelativeSource={RelativeSource AncestorType=cm:GameSelectModal}}">
         <TextBlock Text="{DynamicResource Modal.Text.GameMissing}" TextDecorations="Underline" Cursor="Hand"
                    Margin="4"

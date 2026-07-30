@@ -18,6 +18,7 @@ public partial class ProgramConfig : ConfigBase
     [ObservableProperty] private DateTime _lastUpdateCheck = DateTime.MinValue;
     [ObservableProperty] private WindowState _lastWindowState = WindowState.Normal;
     [ObservableProperty] private List<string> _lastSeenLanguages = [];
+    [ObservableProperty] private List<string> _customGames = [];
     [ObservableProperty] private IntegrationsConfig _integrations = new();
 
     // Test Flags

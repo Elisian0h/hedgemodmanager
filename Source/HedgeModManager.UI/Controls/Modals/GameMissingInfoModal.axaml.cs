@@ -28,7 +28,7 @@ public partial class GameMissingInfoModal : WindowModal
                 return;
             }
 
-            var uiGames = Games.GetUIGames(ModdableGameLocator.LocateGames());
+            var uiGames = Games.GetUIGames(ModdableGameLocator.LocateGames(viewModel.Config.CustomGames));
             var missingGames = uiGames.Where(x => !viewModel.Games.Any(y => y.Game.ID == x.Game.ID));
             if (missingGames.Any())
             {

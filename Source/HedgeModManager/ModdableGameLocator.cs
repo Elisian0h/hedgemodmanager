@@ -138,7 +138,7 @@ public class ModdableGameLocator
         }
     ];
 
-    public static List<IModdableGame> LocateGames()
+    public static List<IModdableGame> LocateGames(IEnumerable<string>? customPaths = null)
     {
         var games = new List<IModdableGame>();
         var steamLocator = new SteamLocator();
@@ -403,7 +403,50 @@ public class ModdableGameLocator
             }
         }
 
+
+        if (customPaths != null)
+        {
+            foreach (var customPath in customPaths)
+            {
+                if (!File.Exists(customPath))
+                    continue;
+
+                string executable = Path.GetFileName(customPath);
+                string root = Path.GetDirectoryName(customPath)!;
+
+                // Find a matching GameInfo by executable name
+                var matchedGameInfo = ModdableGameList.FirstOrDefault(gi =>
+                    gi.PlatformInfos.Values.SelectMany(v => v).Any(pi => Path.GetFileName(pi.Executable).Equals(executable, StringComparison.OrdinalIgnoreCase)));
+
+                if (matchedGameInfo != null)
+                {
+                    // Ensure we don't add duplicate games with the same root
+                    if (!games.Any(g => g.Root.Equals(root, StringComparison.OrdinalIgnoreCase)))
+                    {
+                        var gameSimple = new GameSimple("Custom", matchedGameInfo.ID, matchedGameInfo.ID, root, executable, "", null, null, null);
+                        var game = new ModdableGameGeneric(gameSimple)
+                        {
+                            Name = matchedGameInfo.ID,
+                            Root = root,
+                            Executable = executable,
+                            ModLoaderName = matchedGameInfo.ModLoaderName ?? "None",
+                            Is64Bit = matchedGameInfo.Is64Bit
+                        };
+                        game.ModDatabase.SupportsCodeCompilation = matchedGameInfo.SupportsCodes;
+                        game.ModLoader = new ModLoaderGeneric(game, game.ModLoaderName,
+                            matchedGameInfo.ModLoaderFileName, matchedGameInfo.ModLoaderIncompatibleFileNames,
+                            matchedGameInfo.ModLoaderDownloadURL, matchedGameInfo.Is64Bit);
+                        if (matchedGameInfo.ModDatabaseDirectoryName != null)
+                            game.DefaultDatabaseDirectory = matchedGameInfo.ModDatabaseDirectoryName;
+
+                        games.Add(game);
+                    }
+                }
+            }
+        }
+
         return games;
+
     }
 
     public class GameInfo

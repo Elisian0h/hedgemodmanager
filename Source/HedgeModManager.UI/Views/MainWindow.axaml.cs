@@ -26,7 +26,7 @@ public partial class MainWindow : Window
             return;
 
         Logger.Information($"Locating games...");
-        ViewModel.Games = new(Games.GetUIGames(ModdableGameLocator.LocateGames()));
+        ViewModel.Games = new(Games.GetUIGames(ModdableGameLocator.LocateGames(ViewModel.Config.CustomGames)));
         if (ViewModel.Games.Count == 0)
         {
             Logger.Information($"No games found!");
